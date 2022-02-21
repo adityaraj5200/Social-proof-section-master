@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 
+/* Common CSS */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -28,7 +29,6 @@ html{
   font-size: 14px;
 }
 
-/* Common CSS */
 .main{
   background-image: url(/images/bg-pattern-top-desktop.svg),url(/images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat,no-repeat;
@@ -43,7 +43,6 @@ html{
 .statements{
   display: flex;
   flex-direction: column;
-  /* border: 2px solid blue; */
 }
 
 .bold-statements{
@@ -53,6 +52,7 @@ html{
 .light-statements{
   color: var(--Dark-Grayish-Magenta);
   font-weight: 500;
+  line-height: 20px;
 }
 
 .card-div{
